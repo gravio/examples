@@ -7,7 +7,7 @@ Summary:
 A very basic Action file to set the color of a Gravio Light to green.  
 
 Authors:  
-[Christoph Burgdorfer](@cburgdorfer) (Official)  
+[Christoph Burgdorfer](https://github.com/cburgdorfer) (Official)  
 |Field|Values|
 |-----|------|
 |Components|[GravioLight](https://doc.gravio.com/manuals/gravio4/1/en/topic/gravio-light)|

@@ -20,7 +20,7 @@ Each Action comes annotated with the following notable fields:
 |Action Value|Whether this Action demonstrates usage of any [av.](https://doc.gravio.com/manuals/gravio4/1/en/topic/available-variables-in-action#Action%20Variable) variables| {true,false}|
 |Trigger Property|Whether this Action demonstrates usage of any [tp.](https://doc.gravio.com/manuals/gravio4/1/en/topic/triggervalandtriggerprop#Trigger%20properties) fields| {true,false}|
 |Trigger Value|Whether this Action demonstrates usage of any [tv.](https://doc.gravio.com/manuals/gravio4/1/en/topic/triggervalandtriggerprop#Trigger%20variable) fields| {true,false}|
-|Formula|Whether this Action demonstrates usage of any [formula](https://doc.gravio.com/manuals/gravio4/1/en/topic/pre-mappings-post-mappings) functions|{list of any valid function}|
+|Formula|Whether this Action demonstrates usage of any [formula](https://doc.gravio.com/manuals/gravio4/1/en/topic/functions-in-mappings) functions|{list of any valid function}|
 |Hardware|Whether this Action relies on other Gravio hardware, such as the Gravio Light| {list of any other Gravio hardware}
 
 
