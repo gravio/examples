@@ -1,3 +1,0 @@
-This file lists files which are not subject to the default licence for this repository.
-
-This file is currently empty.
