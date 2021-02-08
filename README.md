@@ -44,15 +44,15 @@ Some versions of Gravio are not backwards compatable. For example. 3.8 Actions a
 # Contributing
 
 ## Submitting an Action or Trigger for the Showcase
-If you'd like to submit something for us to include in the Showcase, please submit a pull request with your added .acs or .gac files in the appropriate location, and include an edit to the relevent TOC.md file that comtains the full annotations for your submission.
+If you'd like to submit something for us to include in the Showcase, please submit a pull request with your added .acs or .gac files in the appropriate location, and include an edit to the relevent README.md file that contains the full annotations for your submission.
 
 If you do not have a GitHub account or cannot make a pull request, please ping any of the people in the [Gravio Slack Channel](https://gravio-community.slack.com/ssb/redirect) with `(Asteria)` in their name and we'll get it added. If we're all offline, ping us anyway.
 
 ### Submission Location
-Community submission for Gravio 4.1+ should be under `/4.1/Community//Actions` or `/4.1/Community/Triggers/`, and submissions for 3.8 should be under `/3.8/Community/Actions`.
+Community submission for Gravio 4.1+ should be under `/4.1/Community/Actions` or `/4.1/Community/Triggers/`, and submissions for 3.8 should be under `/3.8/Community/Actions`.
 
 ### Naming Scheme
-We try to use a CamelCase scheme for the filenames of Actions. E.g., `SetGravioLightToGreen.acs`, or `SendUrlToSlack.acs`. Only Ascii filesnames are accepted.
+We try to use a CamelCase scheme for the filenames of Actions. E.g., `SetGravioLightToGreen.acs`, or `SendUrlToSlack.acs`. Only ascii filesnames are accepted.
 
 ### Licence
 Material made available here is freely licensed for use by anyone under the MIT licence. Any community submissions are subject to this licence. Unless otherwise specified in the [exceptions.txt](/exceptions.txt) file, neither Asteria Corporation, community submitters, nor users of the submissions retain any ownership of the submitted material.
