@@ -1,0 +1,28 @@
+{
+  "Components" : [
+    {
+      "Debug" : false,
+      "Id" : "GravioLight1",
+      "Kind" : "GravioLight",
+      "PostMappings" : [
+
+      ],
+      "PreMappings" : [
+
+      ],
+      "Properties" : {
+        "Brightness" : "100",
+        "Color" : "green",
+        "DeviceId" : "",
+        "On" : true
+      }
+    }
+  ],
+  "Id" : "ControlLight",
+  "Locked" : false,
+  "Name" : "SetLightToGreen",
+  "Properties" : {
+
+  },
+  "Version" : "4.0"
+}
