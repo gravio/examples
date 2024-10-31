@@ -1,0 +1,39 @@
+{
+  "BackgroundColor" : 5,
+  "Components" : [
+    {
+      "Debug" : true,
+      "Id" : "Exec-2",
+      "Kind" : "Exec",
+      "PostMappings" : [
+
+      ],
+      "PreMappings" : [
+        {
+          "Expr" : "\"curl -X POST \\\"https:\/\/api.telegram.org\/bot<your token prefix>:<your token>\/sendPhoto\\\" -F chat_id=\\\"<your chat ID>\\\" -F photo=\\\"@file_within_actmgr_data_folder.jpg\\\"\"",
+          "Output" : "cp.Command"
+        }
+      ],
+      "Properties" : {
+        "Command" : "",
+        "Output" : "stdout",
+        "OutputType" : "string",
+        "Timeout" : 60000
+      }
+    }
+  ],
+  "CreatedAt" : "2024-10-22T06:58:31.2160000+0000",
+  "Description" : "",
+  "Id" : "example",
+  "Locked" : false,
+  "ModifiedAt" : "2024-10-22T07:01:52.6420000+0000",
+  "Name" : "Example Photo Send",
+  "Properties" : {
+
+  },
+  "Tags" : [
+
+  ],
+  "Timeout" : 300000,
+  "Version" : "4.0"
+}

@@ -1,0 +1,95 @@
+{
+  "BackgroundColor" : 3,
+  "Components" : [
+    {
+      "Debug" : false,
+      "Id" : "Split array",
+      "Kind" : "Split",
+      "PostMappings" : [
+
+      ],
+      "PreMappings" : [
+        {
+          "Expr" : "[100 100 80 80 80 70 70 30 10 0]",
+          "Output" : "cv.Payload"
+        }
+      ],
+      "Properties" : {
+        "Encoding" : "utf-8",
+        "Expr" : ""
+      }
+    },
+    {
+      "Debug" : false,
+      "Id" : "Join and sum",
+      "Kind" : "Statistics",
+      "PostMappings" : [
+
+      ],
+      "PreMappings" : [
+
+      ],
+      "Properties" : {
+        "Capacity" : 0,
+        "Expr" : "cv.Payload"
+      }
+    },
+    {
+      "Debug" : false,
+      "Id" : "HTTPRequest-1",
+      "Kind" : "HTTPRequest",
+      "PostMappings" : [
+
+      ],
+      "PreMappings" : [
+        {
+          "Expr" : "cv.Statistics",
+          "Output" : "cv.Payload"
+        }
+      ],
+      "Properties" : {
+        "Authorization" : "(none)",
+        "BaseProperty" : "",
+        "Content-Type" : "(default)",
+        "Dump" : "(none)",
+        "InSecureSkipVerify" : false,
+        "Method" : "POST",
+        "OAuth2AccessToken" : "DuTtglCrAZ3YRRrc\/q0mo9Fxb\/petqa5\/6ufkQ==",
+        "OAuth2AuthURL" : "",
+        "OAuth2ClientID" : "",
+        "OAuth2ClientSecret" : "N8UQVOd7Athxj0ORxwx5Fml3DzEmBGN86TiBzA==",
+        "OAuth2Expiry" : "",
+        "OAuth2Options" : "",
+        "OAuth2RedirectURL" : "",
+        "OAuth2RefreshToken" : "2BYB6dks6I4w8v2mUU4iF3DlwMo6qCtmXVeyyw==",
+        "OAuth2Scopes" : "",
+        "OAuth2TokenType" : "",
+        "OAuth2TokenURL" : "",
+        "Password" : "TE1+WsyOPbfoIHyYfQV4YTJCmawbvcP\/ONbfCw==",
+        "ProxyPassword" : "xP7tPQ2tENmdnt+k5SzpGplZw2iK5PKSA4T0UA==",
+        "ProxyURL" : "",
+        "ProxyUsername" : "",
+        "RetryCount" : 0,
+        "RetryDelay" : 3000,
+        "Timeout" : 60000,
+        "Token" : "U8lC8Hl4ZyQGRi5BifDIbQn11khdaIx5x1fefw==",
+        "URL" : "http:\/\/some-endpoint.com",
+        "Username" : ""
+      }
+    }
+  ],
+  "CreatedAt" : "2024-10-31T04:55:14.3430000+0000",
+  "Description" : "",
+  "Id" : "Gravio_Statistics_Example",
+  "Locked" : false,
+  "ModifiedAt" : "2024-10-31T08:33:45.0650000+0000",
+  "Name" : "Statistics Example",
+  "Properties" : {
+
+  },
+  "Tags" : [
+
+  ],
+  "Timeout" : 300000,
+  "Version" : "4.0"
+}

@@ -1,0 +1,112 @@
+{
+  "BackgroundColor" : 3,
+  "Components" : [
+    {
+      "Debug" : true,
+      "Id" : "HTTPRequest1",
+      "Kind" : "HTTPRequest",
+      "PostMappings" : [
+
+      ],
+      "PreMappings" : [
+        {
+          "Expr" : "\"https:\/\/vet-healthcentre.co.uk\/images\/pictures\/artwork\/photo-uploads\/cat-sat-on-red-litter-tray.jpg\"",
+          "Output" : "cp.URL"
+        }
+      ],
+      "Properties" : {
+        "Authorization" : "(none)",
+        "BaseProperty" : "",
+        "Content-Type" : "(default)",
+        "Dump" : "(none)",
+        "InSecureSkipVerify" : false,
+        "Method" : "GET",
+        "OAuth2AccessToken" : "",
+        "OAuth2AuthURL" : "",
+        "OAuth2ClientID" : "",
+        "OAuth2ClientSecret" : "",
+        "OAuth2Expiry" : "",
+        "OAuth2Options" : "",
+        "OAuth2RedirectURL" : "",
+        "OAuth2RefreshToken" : "",
+        "OAuth2Scopes" : "",
+        "OAuth2TokenType" : "",
+        "OAuth2TokenURL" : "",
+        "Password" : "",
+        "ProxyPassword" : "",
+        "ProxyURL" : "",
+        "ProxyUsername" : "",
+        "RetryCount" : 0,
+        "RetryDelay" : 3000,
+        "Timeout" : 60000,
+        "Token" : "",
+        "URL" : "https:\/\/",
+        "Username" : ""
+      }
+    },
+    {
+      "Debug" : true,
+      "Id" : "FileWrite1",
+      "Kind" : "FileWrite",
+      "PostMappings" : [
+
+      ],
+      "PreMappings" : [
+
+      ],
+      "Properties" : {
+        "Append" : false,
+        "Filename" : "detected.jpg"
+      }
+    },
+    {
+      "Debug" : true,
+      "Id" : "Claude1",
+      "Kind" : "Claude",
+      "PostMappings" : [
+
+      ],
+      "PreMappings" : [
+
+      ],
+      "Properties" : {
+        "AccessKeyId" : "",
+        "APIKey" : "",
+        "AssistantMessageSample" : "",
+        "BaseProperty" : "",
+        "CredentialsJSON" : "FEgWZzO\/7fFkT3VhHRAYoXIuj\/iQZmwUrNTPLA==",
+        "ImageFile" : "detected.jpg",
+        "ImageFileSample" : "",
+        "Location" : "",
+        "MaxTokens" : 500,
+        "Model" : "claude-3-5-sonnet-20240620",
+        "Platform" : "Anthropic",
+        "ProjectID" : "",
+        "Region" : "",
+        "SecretAccessKey" : "E+OJpk9g6b3ZhA8UUK9Wn1FyQZcpf3fxitRJ4A==",
+        "StopSequences" : "",
+        "SystemMessage" : "",
+        "Temperature" : "0",
+        "Timeout" : 60000,
+        "TopK" : "",
+        "TopP" : "",
+        "UserMessage" : "What can you see in this picture?",
+        "UserMessageSample" : ""
+      }
+    }
+  ],
+  "CreatedAt" : "2024-10-24T03:35:37.2975987+00:00",
+  "Description" : "",
+  "Id" : "ClaudeVQA",
+  "Locked" : false,
+  "ModifiedAt" : "2024-10-25T07:31:24.0490000+0000",
+  "Name" : "ClaudeVQA",
+  "Properties" : {
+
+  },
+  "Tags" : [
+
+  ],
+  "Timeout" : 300000,
+  "Version" : "4.0"
+}

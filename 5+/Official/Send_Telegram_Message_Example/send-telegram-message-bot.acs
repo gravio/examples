@@ -1,0 +1,59 @@
+{
+  "BackgroundColor" : 5,
+  "Components" : [
+    {
+      "Debug" : true,
+      "Id" : "HTTPRequest1",
+      "Kind" : "HTTPRequest",
+      "PostMappings" : [
+      ],
+      "PreMappings" : [
+        {
+          "Expr" : "{\"text\": \"hello world\", \"chat_id\": <put your chat_id>}",
+          "Output" : "cv.Payload"
+        }
+      ],
+      "Properties" : {
+        "Authorization" : "(none)",
+        "BaseProperty" : "",
+        "Content-Type" : "application\/json",
+        "Dump" : "(none)",
+        "InSecureSkipVerify" : false,
+        "Method" : "POST",
+        "OAuth2AccessToken" : "Jli9KJl5YVZ8Kz+h2EoBKn9aRDGBwnYpxq1BkQ==",
+        "OAuth2AuthURL" : "",
+        "OAuth2ClientID" : "",
+        "OAuth2ClientSecret" : "dfGhyuQanMcY2nmvoZJKsO6vv0aTeqhhQXJzKg==",
+        "OAuth2Expiry" : "",
+        "OAuth2Options" : "",
+        "OAuth2RedirectURL" : "",
+        "OAuth2RefreshToken" : "",
+        "OAuth2Scopes" : "",
+        "OAuth2TokenType" : "",
+        "OAuth2TokenURL" : "",
+        "Password" : "J6AL+NLQVqOdTLWcqJ40nQxjHgFb4\/2Fn0DC4A==",
+        "ProxyPassword" : "uVfIo0P34cjPvqA+k2XwqEfeXZuG7oOHgW87XQ==",
+        "ProxyURL" : "",
+        "ProxyUsername" : "",
+        "RetryCount" : 0,
+        "RetryDelay" : 3000,
+        "Timeout" : 60000,
+        "Token" : "V2JaIYTE5fgAgITAFgeRZxkvRIx3zdMUM9kOmw==",
+        "URL" : "https:\/\/api.telegram.org\/bot<your token prefix>:<your token>\/sendMessage",
+        "Username" : ""
+      }
+    }
+  ],
+  "CreatedAt" : "2024-08-21T00:55:34.2356306+00:00",
+  "Description" : "",
+  "Id" : "SendTelegram",
+  "Locked" : false,
+  "ModifiedAt" : "2024-10-21T04:34:13.4340000+0000",
+  "Name" : "SendTelegram",
+  "Properties" : {
+  },
+  "Tags" : [
+  ],
+  "Timeout" : 300000,
+  "Version" : "4.0"
+}
