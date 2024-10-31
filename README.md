@@ -30,7 +30,7 @@ Each Action comes annotated with the following notable fields:
 
 ## Structure of this Repo
 
-This repo is separated primarily into branches for Gravio 4 and Gravio 3. Gravio 4, specifically 4.1, is the latest supported version, but we know that not everyone will upgrade at the same speed, so we keep older Actions around for those scenarios. 
+This repo is separated primarily into branches for Gravio 5, Gravio 4 and Gravio 3. We know that not everyone will upgrade at the same speed, so we keep older Actions around for those scenarios. 
 
 Within each main branch, the branch splits between Community and Official folders. If you only want officially created sample Actions, go with the Official path. If you want to see what our community has to offer, check out the Community path. 
 
